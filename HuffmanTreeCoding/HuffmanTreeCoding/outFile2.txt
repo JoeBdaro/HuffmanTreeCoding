@@ -1,0 +1,7 @@
+(dummy, 0, dummy, NULL, NULL, d)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, z)->(z, 7, , NULL, NULL, e)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, x)->(x, 58, , NULL, NULL, NULL)-> NULL
+
+(zdacbeyx, 100, , zdacbey, x)->(zdacbey, 42, , zdacb, ey)->(zdacb, 17, , z, dacb, ey)->(z, 7, , NULL, NULL, dacb)->(dacb, 10, , da, cb)->(da, 4, , d, a, cb)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(cb, 6, , c, b)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, da)->(ey, 25, , e, y, zdacbey)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, zdacb)->(x, 58, , NULL, NULL, zdacbeyx)->
+
+(zdacbey, 42, , zdacb, ey)->(zdacb, 17, , z, dacb, ey)->(z, 7, , NULL, NULL, dacb)->(dacb, 10, , da, cb)->(da, 4, , d, a, cb)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(cb, 6, , c, b)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, da)->(ey, 25, , e, y, zdacbey)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, zdacb)->(zdacbeyx, 100, , zdacbey, x)->(x, 58, , NULL, NULL, zdacbeyx)->
+
+(zdacbey, 42, , zdacb, ey)->(zdacb, 17, , z, dacb, ey)->(z, 7, , NULL, NULL, dacb)->(dacb, 10, , da, cb)->(da, 4, , d, a, cb)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(cb, 6, , c, b)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, da)->(ey, 25, , e, y, zdacbey)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, zdacb)->(x, 58, , NULL, NULL, zdacbeyx)->(zdacbeyx, 100, , zdacbey, x)->

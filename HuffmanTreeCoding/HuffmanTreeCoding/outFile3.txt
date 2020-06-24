@@ -1,0 +1,16 @@
+(dummy, 0, dummy, NULL, NULL, a)->(a, 2, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, a)->(a, 2, , NULL, NULL, b)->(b, 3, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, d)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, d)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, e)->(e, 12, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, d)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, e)->(e, 12, , NULL, NULL, x)->(x, 58, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, d)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, e)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, x)->(x, 58, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, d)->(d, 2, , NULL, NULL, a)->(a, 2, , NULL, NULL, c)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, z)->(z, 7, , NULL, NULL, e)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, x)->(x, 58, , NULL, NULL, NULL)-> NULL
+
+(dummy, 0, dummy, NULL, NULL, c)->(c, 3, , NULL, NULL, b)->(b, 3, , NULL, NULL, da)->(da, 4, , d, a)->(z, 7, , NULL, NULL, e)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, x)->(x, 58, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, da)->(da, 4, , d, a, cb)->(cb, 6, , c, b)->(z, 7, , NULL, NULL, e)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, x)->(x, 58, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, z)->(z, 7, , NULL, NULL, dacb)->(dacb, 10, , da, cb)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, x)->(x, 58, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, e)->(e, 12, , NULL, NULL, y)->(y, 13, , NULL, NULL, zdacb)->(zdacb, 17, , z, dacb)->(x, 58, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, zdacb)->(zdacb, 17, , z, dacb, ey)->(ey, 25, , e, y)->(x, 58, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, zdacbey)->(zdacbey, 42, , zdacb, ey)->(x, 58, , NULL, NULL, NULL)-> NULL
+(dummy, 0, dummy, NULL, NULL, zdacbeyx)->(zdacbeyx, 100, , NULL, NULL, NULL)-> NULL
